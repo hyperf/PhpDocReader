@@ -3,11 +3,11 @@
 namespace PhpDocReader;
 
 use PhpDocReader\PhpParser\UseStatementParser;
-use ReflectionClass;
-use ReflectionMethod;
-use ReflectionParameter;
-use ReflectionProperty;
-use Reflector;
+use Roave\BetterReflection\Reflection\ReflectionClass;
+use Roave\BetterReflection\Reflection\ReflectionMethod;
+use Roave\BetterReflection\Reflection\ReflectionParameter;
+use Roave\BetterReflection\Reflection\ReflectionProperty;
+use Roave\BetterReflection\Reflection\Reflector;
 
 /**
  * PhpDoc reader
